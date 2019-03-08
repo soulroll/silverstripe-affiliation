@@ -1,0 +1,15 @@
+---
+After: 'silverstripe-responsive-images/*'
+---
+Heyday\ResponsiveImages\ResponsiveImageExtension:
+  sets:
+    ReponsiveHomePageSlider:
+      method: Fill
+      arguments:
+        '(min-width: 1680px)': [2560, 550]
+        '(min-width: 1200px)': [1680, 550]
+        '(min-width: 992px)': [1200, 500]
+        '(min-width: 768px)': [992, 400]
+        '(min-width: 576px)': [768, 500]
+      default_arguments: [576, 400]
+

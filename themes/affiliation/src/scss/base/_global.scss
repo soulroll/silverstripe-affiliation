@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+}
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  height: 100%;
+}
+img {
+  max-width: 100%;
+}
+.collapsing {
+  -webkit-transition: height 0.3s ease;
+  -moz-transition: height 0.3s ease;
+  -o-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+}
+.action {
+  cursor: pointer;
+}

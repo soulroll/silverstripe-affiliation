@@ -1,0 +1,101 @@
+.search {
+  float: right;
+}
+
+.search-toggle {
+  @include rem(margin-top, 4px);
+  @include rem(padding, 2px 0 10px 14px);
+  float: right;
+  background-color: transparent;
+  border: 0;
+  &:before {
+    font-family: "FontAwesome";
+    content: "\f002";
+  }
+}
+
+.search-toggle-in-navigation {
+  margin-top: 0;
+  height: 48px;
+  padding-right: 15px;
+  line-height: 40px;
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: $color;
+      &:hover {
+        cursor: pointer;
+        background-color: lighten($color, 5%)
+      }
+    }
+  }
+  &:before {
+    color: #fff;
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+.search-toggle-in-navigation.open {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: lighten($color, 5%)
+    }
+  }
+}
+
+.search-toggle-dropdown {
+  display: none;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  padding: 0px 5px 4px 4px;
+  .input-group-btn {
+    border: 0;
+    background-color: #ccc;
+  }
+}
+
+.search-toggle-dropdown.open {
+  display: block;
+}
+
+.search-mobile {
+  @include rem(margin-top, 15px);
+  @include media-breakpoint-down(xs) {
+    @include rem(padding, 20px 15px 20px 15px);
+    margin: 0;
+  }
+  .input-group {
+    width: 100%;
+  }
+}
+
+.btn-header-search {
+  @include rem(border-radius, 0 3px 3px 0);
+}
+
+.btn-header-search {
+  background-color: #ddd;
+}
+
+.search-toggle-in-navigation-container {
+  position: relative;
+}
+.search-toggle-in-navigation-dropdown {
+  position: absolute;
+  right: 0;
+  top: 48px;
+  padding: 15px;
+  display: none;
+  z-index: 22;
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: lighten($color, 5%)
+    }
+  }
+}
+.search-toggle-in-navigation-dropdown.open {
+  display: block;
+}

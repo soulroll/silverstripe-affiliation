@@ -1,0 +1,6 @@
+---
+Name: taxonomy
+---
+SilverStripe\Taxonomy\TaxonomyTerm:
+  extensions:
+  - Affiliation\Affiliation\Extension\TaxonomyTermExtension

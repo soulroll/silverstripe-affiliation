@@ -1,0 +1,24 @@
+.back-to-top {
+  @include rem(padding, 8px 13px 8px 13px);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  display: block;
+  z-index: 99999;
+  background-color: #444;
+  color: #fff;
+  border-radius: 100%;
+  &:focus,
+  &:visited,
+  &:hover {
+    color: #fff;
+    background-color: #555;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .back-to-top {
+    display: none !important;
+  }
+}

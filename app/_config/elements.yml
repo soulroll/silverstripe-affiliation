@@ -1,0 +1,6 @@
+---
+Name: mysitecontentblocks
+---
+Affiliation\Affiliation\PageType\BlocksPage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension

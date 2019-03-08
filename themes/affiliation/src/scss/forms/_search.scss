@@ -1,0 +1,23 @@
+.navbar-form-desktop {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.navbar-form-mobile {
+  @include rem(margin-top, 10px);
+  display: none;
+  position: relative;
+  .form-group {
+    @include rem(padding-right, 80px);
+    margin: 0;
+  }
+  #SearchForm_SearchForm_action_results {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}

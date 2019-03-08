@@ -1,0 +1,9 @@
+---
+Name: myextensions
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Affiliation\Affiliation\Extension\CustomSiteConfig
+SilverStripe\UserForms\Model\UserDefinedForm:
+  extensions:
+    - Affiliation\Affiliation\Extension\UserDefinedFormSidebar

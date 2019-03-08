@@ -1,0 +1,6 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/themes/silverstripe-bootstarter/
+/resources/
+/public/resources/

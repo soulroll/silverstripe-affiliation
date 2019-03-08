@@ -1,0 +1,22 @@
+header {
+  @include rem(padding, 30px 0 30px 0);
+}
+.logo {
+  float: left;
+  color: #000;
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.site-title,
+.site-tagline {
+  margin: 0;
+}
+.site-title {
+  @include rem(font-size, 24px);
+  font-weight: bold;
+}
+.site-tagline {
+  @include rem(font-size, 16px);
+}

@@ -1,0 +1,32 @@
+.sidebar {
+  padding-left: 0;
+  list-style: none;
+  ul {
+    @include rem(padding-left, 22px);
+    list-style: none;
+  }
+  li {
+    a {
+      @include rem(padding, 2px 0 2px 0);
+      display: block;
+    }
+    .link {
+      color: #000;
+      &:hover {
+        color: #222;
+      }
+    }
+    .current {
+      color: #000;
+      &:hover {
+        color: #222;
+      }
+    }
+    .section {
+      color: #000;
+      &:hover {
+        color: #222;
+      }
+    }
+  }
+}

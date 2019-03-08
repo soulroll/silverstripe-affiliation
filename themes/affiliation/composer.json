@@ -1,0 +1,25 @@
+{
+  "name": "soulroll/silverstripe-bootstarter",
+  "description": "A front-end boilerplate theme for starting Bootstrap SilverStripe projects faster",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT License",
+  "type": "silverstripe-theme",
+  "homepage": "http://www.soulwebdesign.nz",
+  "keywords": ["Bootstrap", "bootstarter", "Theme", "SilverStripe", "Gulp", "Boilerplate", "theme starter", "starter-kit", "starter", "frontend"],
+  "authors": [
+    {
+      "name": "David Malone",
+      "homepage": "http://www.soulwebdesign.nz",
+      "role": "Front-end developer"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "expose": [
+      "dist"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+.navigation-left,
+.navigation-justified,
+.navigation-megamenu {
+  @include media-breakpoint-up(md) {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        background-color: $color;
+        .navigation-link,
+        .navigation-submenu-link {
+          color: #fff;
+          &:hover {
+            transition: background-color 0.6s ease;
+            background-color: lighten($color, 5%)
+          };
+        }
+      }
+    }
+    @each $theme, $color in $theme-colours-shade {
+      body.#{$theme} & {
+        // border-top: 1px solid $color;
+        // border-bottom: 1px solid $color;
+        border: 0;
+        .navigation-item {
+          // border-left: 1px solid $color;
+          &:last-child {
+            // border-right: 1px solid $color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.navigation-submenu {
+  @include media-breakpoint-up(md) {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        background-color: $color !important;
+        .navigation-submenu-link {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.navigation-toggle {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: $color !important;
+      color: #fff;
+    }
+  }
+}
+
+.copyright-symbol {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      color: $color;
+    }
+  }
+}
+.btn-card-theme {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: $color;
+      color: #fff;
+      &:hover {
+        background-color: lighten($color, 5%)
+      };
+    }
+  }
+}
+
+.btn-theme {
+  padding: 15px;
+  margin-bottom: 5px;
+}
+.btn-theme-light-green {
+  background-color: $light-green;
+}
+.btn-theme-green {
+  background-color: $green;
+}
+.btn-theme-blue {
+  background-color: $blue;
+}
+.btn-theme-navy {
+  background-color: $navy;
+}
+.btn-theme-teal {
+  background-color: $teal;
+}
+.btn-theme-cyan {
+  background-color: $cyan;
+}
+.btn-theme-red {
+  background-color: $red;
+}
+.btn-theme-orange {
+  background-color: $orange;
+}
+.btn-theme-purple {
+  background-color: $purple;
+}
+.btn-theme-brown {
+  background-color: $brown;
+}
+.back-to-top {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      transition: background-color 0.6s ease;
+      background-color: $color;
+      &:hover {
+        background-color: lighten($color, 10%)
+      };
+    }
+  }
+}
+.navigation-megamenu-panel {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: darken($color, 4%);
+      color: #fff;
+      h3 a {
+        color: #fff;
+      }
+      .navigation-megamenu-item a {
+        color: #fff;
+      }
+    }
+  }
+}
+.page-summary-title {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      &:hover {
+        color: $color !important;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.sidebar {
+  li {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        a:hover,
+        .current {
+          color: $color !important;
+        }
+      }
+    }
+  }
+}
+.search-toggle-navigation {
+  @each $theme, $color in $theme-colours {
+  }
+}
+.navigation-menu {
+  @include media-breakpoint-down(xs) {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        background-color: $color;
+        .navigation-chevron {
+          &:after {
+            color: #fff;
+          }
+        }
+        .navigation-link,
+        .navigation-submenu-link,
+        .navigation-sub-submenu-link {
+          color: #fff;
+        }
+        .navigation-submenu,
+        .navigation-submenu-item,
+        .navigation-sub-submenu,
+        .navigation-sub-submenu-item,
+        .navigation-item {
+          border-color: darken($color, 5%);
+        }
+      }
+    }
+  }
+}
+.navigation-chevron {
+  @include media-breakpoint-down(xs) {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        border-color: darken($color, 5%);
+      }
+    }
+  }
+}
+
+#MemberLoginForm_LoginForm_action_doLogin {
+  @each $theme, $color in $theme-colours {
+    body.#{$theme} & {
+      background-color: $color;
+      color: #fff;
+    }
+  }
+}
+
+.btn-toolbar {
+  .action {
+    @each $theme, $color in $theme-colours {
+      body.#{$theme} & {
+        background-color: $color;
+        color: #fff;
+        &:hover {
+          border-color: $color;
+          background-color: lighten($color, 4%)
+        };
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+---
+Name: directoryroutes
+After: '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'tag/$ID!': 'SilverStripe\Taxonomy\Controllers\TaxonomyDirectoryController'
