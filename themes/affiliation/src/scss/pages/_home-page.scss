@@ -48,7 +48,7 @@
     @include rem(margin-bottom, 30px);
     @include rem(max-width, 350px);
   }
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(xs) {
     @include rem(margin-bottom, 15px);
   }
 }
