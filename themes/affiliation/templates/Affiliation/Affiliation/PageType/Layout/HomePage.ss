@@ -22,6 +22,7 @@
   </div>
 </div>
 <div class="products">
+  <%--
   <div class="container">
     <h2>Latest gifts</h2>
     <div class="row">
@@ -61,4 +62,5 @@
       <% end_loop %>
     </div>
   </div>
+  --%>
 </div>

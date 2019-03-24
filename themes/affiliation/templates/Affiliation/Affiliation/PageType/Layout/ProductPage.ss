@@ -42,9 +42,10 @@
             <div class="col-xl-5 offset-xl-1 col-md-5 col-sm-12 col-xs-12">
               <article>
                 <h1 class="mb-3">$Title</h1>
-                <h3>Description</h3>
                 $Content
-                <a href="#" class="btn btn-secondary">See on store</a>
+                <% if ProductLink %>
+                <a href="$ProductLink" class="btn btn-secondary">See on store</a>
+                <% end_if %>
               </article>
             </div>
           </div>

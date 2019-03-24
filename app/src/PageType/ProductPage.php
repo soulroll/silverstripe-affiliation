@@ -88,12 +88,13 @@ class ProductPage extends Page
 		$fields->addFieldsToTab(
 			'Root.Main',
 			[
-				UploadField::create('MainProductImage', 'Main product image')
+				UploadField::create('MainProductImage', 'Product image')
 					->setDescription('Image size: 700 x 600')
 					->setAllowedFileCategories('image')
 					->setAllowedExtensions(array('jpg', 'jpeg', 'png'))
 					->setFolderName('Products'),
 				TextField::create('ProductLink','Product link')
+					->setDescription('Product affiliate link goes here')
 			],'Content'
 		);
 
