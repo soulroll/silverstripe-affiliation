@@ -10,7 +10,7 @@ var uglifyjs = require('gulp-uglify');
 var browsersync = require('browser-sync').create();
 
 // Silverstripe Project URL (Needed for BrowserSync)
-var PROXY_URL = 'silverstripe-streetgang.davidm.wgtn.cat-it.co.nz';
+var PROXY_URL = 'affiliation.davidm.co.nz';
 
 // Source and Distributed Paths
 var PATHS = {

@@ -1,5 +1,5 @@
 {
-  "name": "soulroll/silverstripe-bootstarter",
+  "name": "soulroll/silverstripe-affiliation",
   "description": "A front-end boilerplate theme for starting Bootstrap SilverStripe projects faster",
   "minimum-stability": "dev",
   "prefer-stable": true,
