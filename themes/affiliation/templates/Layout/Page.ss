@@ -3,7 +3,7 @@
     <div class="page">
       <div class="row">
         <div class="col">
-          <h1>$Title</h1>
+          <h2>$Title</h2>
           $ElementalArea
           $Content
           $Form

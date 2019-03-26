@@ -1,0 +1,10 @@
+.blocks-page {
+  @include media-breakpoint-down(sm) {
+    border-top: 1px solid #eee;
+  }
+}
+.blocks-page h2 {
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+}

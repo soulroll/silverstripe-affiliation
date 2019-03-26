@@ -1,3 +1,9 @@
+.landing-page {
+  @include media-breakpoint-down(sm) {
+    border-top: 1px solid #eee;
+  }
+}
+
 .page-summary {
   float: left;
   position: relative;

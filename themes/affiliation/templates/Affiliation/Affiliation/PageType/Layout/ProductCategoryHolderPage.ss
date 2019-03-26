@@ -1,10 +1,10 @@
-<div class="container-full page-background">
+<div class="container-full page-background product-category-holder-page">
   <div class="container">
     <div class="page">
       <h2>$Title</h2>
       <div class="row">
         <% loop $Children %>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="product-card">
               <% if $Image %>
               <a href="$Link">

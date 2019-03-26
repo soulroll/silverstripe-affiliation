@@ -1,4 +1,4 @@
-<div class="container-full page-background">
+<div class="container-full page-background blocks-page">
   <div class="container">
     <div class="page">
       <div class="row">

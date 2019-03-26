@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="resources/themes/affiliation/dist/css/style.css">
     <% include Favicon %>
   </head>
-  <body class="$ClassName $SiteConfig.SiteColor $SiteConfig.SiteFont">
+  <body class="$ClassName.ShortName $SiteConfig.SiteColor $SiteConfig.SiteFont">
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->

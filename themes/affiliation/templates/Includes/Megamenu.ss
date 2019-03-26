@@ -32,7 +32,7 @@
             <div class="col-lg-8 col-md-8">
               <ul class="navigation-megamenu-menu row">
               <% loop $Children %>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-6">
                   <li class="navigation-megamenu-item"><a href="$Link">$MenuTitle.XML</a></li>
                 </div>
               <% end_loop %>
