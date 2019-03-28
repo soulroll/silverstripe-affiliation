@@ -13,7 +13,8 @@
               <% end_if %>
             </a>
             <div class="product-information">
-              <h3><a href="$Link">$Title</a></h3>
+              <h3><a href="$Link" class="product-title">$Title</a></h3>
+              <a href="#" class="btn btn-success product-button">Check it out</a>
             </div>
           </div>
         </div>
@@ -21,8 +22,34 @@
     </div>
   </div>
 </div>
+
+
 <div class="products">
+
+  <div class="container">
+
+
+  <ul class="nav nav-pills" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Latest</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Popular</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Recommended</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Latest</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Popular</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Recommended</div>
+  </div>
+ </div>
+
   <%--
+
+
   <div class="container">
     <h2>Latest gifts</h2>
     <div class="row">
@@ -62,5 +89,4 @@
       <% end_loop %>
     </div>
   </div>
-  --%>
-</div>
+  </div>

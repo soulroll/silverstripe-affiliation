@@ -20,9 +20,9 @@
           <% loop $Children %>
             <div class="col-lg-4 col-md-6">
               <div class="product-card">
-                <% if $Image %>
+                <% if $MainProductImage %>
                 <a href="$Link">
-                  $Image.Fit(320,320)
+                  $MainProductImage.Fit(320,320)
                 </a>
                 <% else %>
                 <a href="$Link">

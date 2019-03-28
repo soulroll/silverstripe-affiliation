@@ -31,12 +31,18 @@
     @include rem(margin-bottom, 15px);
   }
 }
+.product-title {
+  color: #000;
+}
+
+.product-button {
+  float: right;
+}
+
 .product-card img {
   // border-bottom: 1px solid #ecf0f1;
 }
-.product-card a {
-  color: #000;
-}
+
 .product-card h3 {
   @include rem(font-size, 18px);
   margin-bottom: 0;

@@ -1,6 +1,11 @@
 .page-background {
   background-color: #fff;
 }
+.standard-page {
+  @include media-breakpoint-down(sm) {
+    border-top: 1px solid #eee;
+  }
+}
 .page {
   @include rem(padding, 30px 0 30px 0);
 }

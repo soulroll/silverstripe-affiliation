@@ -35,6 +35,7 @@
     display: none;
   }
 }
+
 .search-toggle-in-navigation.open {
   @each $theme, $color in $theme-colours {
     body.#{$theme} & {

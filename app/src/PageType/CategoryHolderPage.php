@@ -3,33 +3,21 @@
 namespace Affiliation\Affiliation\PageType;
 
 use Page;
-use SilverStripe\Assets\Image;
-use SilverStripe\AssetAdmin\Forms\UploadField;
-use SilverStripe\Forms\TextAreaField;
 
-class ProductCategoryHolderPage extends Page
+class CategoryHolderPage extends Page
 {
-
 	/**
 	 * @var string
 	 * @config
 	 */
-	private static $table_name = 'ProductCategoryHolderPage';
-
-	/**
-	 * @var array
-	 * @config
-	 */
-	private static $defaults = array (
-		'ShowInMenus' => false
-	);
+	private static $table_name = 'CategoryHolderPage';
 
 	/**
 	 * @var array
 	 * @config
 	 */
 	private static $allowed_children = array(
-		ProductCategoryPage::class
+		CategoryPage::class
 	);
 
 	/**
