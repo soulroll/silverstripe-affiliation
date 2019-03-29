@@ -20,7 +20,9 @@
   @include rem(padding, 15px 15px 15px 15px);
 }
 .product-card {
+  position: relative;
   background-color: #fff;
+  padding-bottom: 50px;
   @include rem(margin-bottom, 30px);
   @include media-breakpoint-down(md) {
     margin: 0 auto;
@@ -36,7 +38,9 @@
 }
 
 .product-button {
-  float: right;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }
 
 .product-card img {
