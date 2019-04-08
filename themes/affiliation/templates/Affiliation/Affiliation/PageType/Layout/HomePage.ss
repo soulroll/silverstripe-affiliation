@@ -4,17 +4,19 @@
     <div class="row">
       <% loop $FeaturedProducts %>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <h3 class="product-title"><a href="$Link">$Title</a></h3>
-          <div class="product-card product-card-featured">
-            <a class="product-card-link" href="$Link">
+          <div class="product">
+            <h3 class="product-card-title"><a href="$Link">$Title</a></h3>
+            <div class="product-card">
+              <a class="product-card-image" href="$Link">
               <% if $MainProductImage %>
                 $MainProductImage
               <% else %>
-                <span class="product-placeholder"></span>
+                <span class="product-card-placeholder"></span>
               <% end_if %>
-            </a>
-            <div class="product-information">
-              <a href="$Link" class="btn btn-success product-button">Check it out</a>
+              </a>
+              <div class="product-card-information">
+                <a href="$Link" class="btn btn-success product-card-button">Check it out</a>
+              </div>
             </div>
           </div>
         </div>
@@ -28,17 +30,17 @@
     <div class="row">
       <% loop $LatestDeals %>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <h3 class="product-title"><a href="$Link">$Title</a></h3>
+          <h3 class="product-card-title"><a href="$Link">$Title</a></h3>
           <div class="product-card">
-            <a href="$ProductLink">
-              <% if $MainProductImage %>
-                $MainProductImage
-              <% else %>
-                <span class="product-placeholder"></span>
-              <% end_if %>
+            <a class="product-card-image" href="$Link">
+            <% if $MainProductImage %>
+              $MainProductImage
+            <% else %>
+              <span class="product-card-placeholder"></span>
+            <% end_if %>
             </a>
-            <div class="product-information">
-              <a href="$Link" class="btn btn-success product-button">Check it out</a>
+            <div class="product-card-information">
+              <a href="$Link" class="btn btn-success product-card-button">Check it out</a>
             </div>
           </div>
         </div>

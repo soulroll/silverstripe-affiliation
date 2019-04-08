@@ -16,7 +16,7 @@
               </a>
               <% end_if %>
               <div class="product-information">
-                <a class="product-title" href="$Link"><h3>$Title</h3></a>
+                <h3><a class="product-title" href="$Link">$Title</a></h3>
               </div>
             </div>
           </div>
