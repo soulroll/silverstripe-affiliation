@@ -24,7 +24,7 @@
   background-color: #fff;
   width: 100%;
   min-height: 70px;
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid #product-card-priceecf0f1;
   @include rem(padding, 15px 15px 15px 15px);
 }
 
@@ -43,4 +43,8 @@
 
 .product-card-button {
   float: right;
+}
+
+.product-card-price {
+  line-height: 42px;
 }

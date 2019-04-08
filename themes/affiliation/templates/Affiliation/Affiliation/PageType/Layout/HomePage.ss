@@ -15,6 +15,7 @@
               <% end_if %>
               </a>
               <div class="product-card-information">
+                <span class="product-card-price">$100</span>
                 <a href="$Link" class="btn btn-success product-card-button">Check it out</a>
               </div>
             </div>
