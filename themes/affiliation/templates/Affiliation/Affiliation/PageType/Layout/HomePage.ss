@@ -41,7 +41,7 @@
             <% end_if %>
             </a>
             <div class="product-card-information">
-              <a href="$Link" class="btn btn-success product-card-button">Check it out</a>
+              <a href="$Link" class="btn product-card-button">Check it out</a>
             </div>
           </div>
         </div>

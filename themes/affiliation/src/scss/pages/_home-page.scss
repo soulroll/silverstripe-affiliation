@@ -6,13 +6,30 @@
 }
 
 .products-featured {
-  background-color: #e9ebee;
+  background-color: #ecf0f1;
   border-bottom: 1px solid #dddfe2;
+}
+
+.product-card-information {
+  border-top: 1px solid #ecf0f1;
 }
 
 .products-heading {
   @include rem(margin-bottom, 30px);
   @include media-breakpoint-down(md) {
     text-align: center;
+  }
+}
+
+.product-card-image {
+  overflow: hidden;
+  display: block;
+  img {
+    transform: scale(1);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+    &:hover {
+      transform: scale(1.1);
+    };
   }
 }
