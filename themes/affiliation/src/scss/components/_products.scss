@@ -23,7 +23,7 @@
 .product-card-information {
   background-color: #fff;
   width: 100%;
-  min-height: 70px;
+  min-height: 75px;
   border-top: 1px solid #product-card-priceecf0f1;
   @include rem(padding, 15px 15px 15px 15px);
 }
@@ -52,6 +52,7 @@
 }
 
 .product-card-price {
-  line-height: 42px;
+  line-height: 45px;
+  font-size: 18px;
   font-weight: bold;
 }

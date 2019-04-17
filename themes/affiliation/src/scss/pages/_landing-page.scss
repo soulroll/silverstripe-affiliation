@@ -11,10 +11,12 @@
   width: 100%;
   @include rem(margin-bottom, 20px);
 }
+
 .page-summary.with-image {
   padding-left: 160px;
   min-height: 107px;
 }
+
 .page-summary-title {
   display: inline-block;
   color: #000;
@@ -23,6 +25,7 @@
     color: #000;
   }
 }
+
 .page-summary-image {
   left: 0;
   position: absolute;

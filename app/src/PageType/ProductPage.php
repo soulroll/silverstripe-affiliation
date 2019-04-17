@@ -35,7 +35,8 @@ class ProductPage extends Page
 	 */
 	private static $db = array(
 		'ShortDescription' => 'Varchar(255)',
-		'ProductLink' => 'Varchar(255)'
+		'ProductLink' => 'Varchar(255)',
+		'ProductPrice' => 'Varchar(255)'
 	);
 
 	/**
@@ -93,6 +94,8 @@ class ProductPage extends Page
 					->setAllowedFileCategories('image')
 					->setAllowedExtensions(array('jpg', 'jpeg', 'png'))
 					->setFolderName('Products'),
+				TextField::create('ProductPrice','Product price')
+					->setDescription('Product price in NZD'),
 				TextField::create('ProductLink','Product link')
 					->setDescription('Product affiliate link goes here')
 			],'Content'

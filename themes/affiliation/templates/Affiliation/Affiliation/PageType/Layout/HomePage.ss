@@ -15,8 +15,8 @@
               <% end_if %>
               </a>
               <div class="product-card-information">
-                <span class="product-card-price">$100</span>
-                <a href="$Link" class="btn btn-success product-card-button">Check it out</a>
+                <span class="product-card-price">$ProductPrice</span>
+                <a href="$Link" class="btn btn-card-theme product-card-button">Check it out</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,8 @@
             <% end_if %>
             </a>
             <div class="product-card-information">
-              <a href="$Link" class="btn product-card-button">Check it out</a>
+              <span class="product-card-price">$100</span>
+              <a href="$Link" class="btn btn-card-theme product-card-button">Check it out</a>
             </div>
           </div>
         </div>
