@@ -28,12 +28,12 @@
               <div class="product-carousel-navigation">
                 <% if MainProductImage %>
                   <div class="product-carousel-navigation-thumbnail">
-                      $MainProductImage.Fit(150,150)
+                      $MainProductImage.Fit(168,150)
                   </div>
                 <% end_if %>
                 <% loop ProductImages %>
                   <div class="product-carousel-navigation-thumbnail">
-                    $Image.Fit(150,150)
+                    $Image.Fit(168,150)
                   </div>
                 <% end_loop %>
               </div>

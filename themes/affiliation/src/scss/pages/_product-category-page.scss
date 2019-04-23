@@ -8,3 +8,19 @@
     text-align: center;
   }
 }
+.product-category-information {
+  background-color: #fff;
+  width: 100%;
+  border-top: 1px solid #ecf0f1;
+  @include rem(padding, 15px 15px 15px 15px);
+}
+.product-category-title {
+  @include rem(font-size, 18px);
+  margin-bottom: 0;
+  a {
+    color: #000;
+  }
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+}

@@ -3,6 +3,7 @@
 }
 .product-carousel {
   margin-bottom: 15px;
+  border: 1px solid #ced5df;
 }
 .product-carousel-navigation {
   @include media-breakpoint-down(sm) {
@@ -14,6 +15,7 @@
   margin-right: 15px;
   img {
     margin-bottom: 15px;
+    border: 1px solid #ced5df;
   }
   &:hover {
     cursor: pointer;
@@ -67,4 +69,7 @@
       color: #fff;
     }
   }
+}
+.product-carousel-navigation-thumbnail:nth-child(3) {
+  margin-right: 0;
 }

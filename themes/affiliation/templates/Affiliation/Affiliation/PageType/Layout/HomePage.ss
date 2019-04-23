@@ -1,4 +1,4 @@
-<div class="products products-featured">
+<div class="products-featured">
   <div class="container">
     <h2 class="products-heading">Popular gifts</h2>
     <div class="row">

@@ -16,8 +16,8 @@
                   <img src="https://via.placeholder.com/350x300">
                 </a>
                 <% end_if %>
-                <div class="product-information">
-                  <h3 class="product-title"><a href="$Link">$Title</a></h3>
+                <div class="product-category-information">
+                  <h3 class="product-category-title"><a href="$Link">$Title</a></h3>
                 </div>
               </div>
             </div>

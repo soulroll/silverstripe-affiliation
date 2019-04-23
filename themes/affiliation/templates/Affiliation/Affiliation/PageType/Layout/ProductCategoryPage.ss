@@ -22,15 +22,15 @@
               <div class="product-card">
                 <% if $MainProductImage %>
                 <a href="$Link">
-                  $MainProductImage.Fit(320,320)
+                  $MainProductImage
                 </a>
                 <% else %>
                 <a href="$Link">
-                  <img src="https://via.placeholder.com/350x250">
+                  <img src="https://via.placeholder.com/700x600">
                 </a>
                 <% end_if %>
-                <div class="product-information">
-                  <h3><a class="product-title" href="$Link">$Title</a></h3>
+                <div class="product-category-information">
+                  <h3 class="product-category-title"><a href="$Link">$Title</a></h3>
                 </div>
               </div>
             </div>
