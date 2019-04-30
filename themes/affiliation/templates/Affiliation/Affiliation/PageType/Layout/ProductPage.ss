@@ -11,6 +11,9 @@
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 col-xs-12">
               <div class="product-carousel-container">
+
+              <% if MainProductImage %>
+
                 <div class="product-carousel">
                   <% if MainProductImage %>
                     $MainProductImage.ScaleWidth(540)
@@ -19,10 +22,14 @@
                     $Image.ScaleWidth(540)
                   <% end_loop %>
                 </div>
+
                 <% if ProductImages %>
                   <span class="product-carousel-arrow-left"></span>
                   <span class="product-carousel-arrow-right"></span>
                 <% end_if %>
+
+              <% end_if %>
+
               </div>
               <% if ProductImages %>
               <div class="product-carousel-navigation">

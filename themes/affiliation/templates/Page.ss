@@ -23,6 +23,7 @@
     <% include Navigation %>
     <main role="main">
       $Layout
+      <%--$ClassName--%>
     </main>
     <script src="resources/themes/affiliation/dist/js/main.min.js"></script>
   </body>

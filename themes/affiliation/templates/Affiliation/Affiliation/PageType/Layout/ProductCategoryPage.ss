@@ -21,11 +21,11 @@
             <div class="col-lg-4 col-md-6">
               <div class="product-card">
                 <% if $MainProductImage %>
-                <a href="$Link">
+                <a class="product-card-image" href="$Link">
                   $MainProductImage
                 </a>
                 <% else %>
-                <a href="$Link">
+                <a class="product-card-image" href="$Link">
                   <img src="https://via.placeholder.com/700x600">
                 </a>
                 <% end_if %>

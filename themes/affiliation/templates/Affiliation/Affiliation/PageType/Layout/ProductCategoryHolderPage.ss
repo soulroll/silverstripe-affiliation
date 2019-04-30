@@ -7,11 +7,11 @@
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
               <% if $Image %>
-              <a href="$Link">
+              <a class="product-card-image" href="$Link">
                 $Image.Fit(320,300)
               </a>
               <% else %>
-              <a href="$Link">
+              <a class="product-card-image" href="$Link">
                 <img src="https://via.placeholder.com/700x600">
               </a>
               <% end_if %>

@@ -8,7 +8,7 @@
 .product-card {
   width: 100%;
   background-color: #fff;
-  border: 1px solid #ced5df;
+  border: 1px solid #e5e5e5;
   @include rem(margin-bottom, 35px);
   @include media-breakpoint-down(md) {
     margin: 0 auto;

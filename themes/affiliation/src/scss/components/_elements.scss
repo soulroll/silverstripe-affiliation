@@ -4,11 +4,13 @@
 .silverstripe__elementalfileblock__block__fileblock {
   @include rem(margin-bottom, 30px);
 }
+
 .file-element__file {
   a {
     color: #000;
   }
 }
+
 .banner-element__title {
   color: #fff;
 }

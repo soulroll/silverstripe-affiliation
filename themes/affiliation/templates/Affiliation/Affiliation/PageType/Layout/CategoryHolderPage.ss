@@ -8,12 +8,12 @@
             <div class="product">
               <div class="product-card">
                 <% if $Image %>
-                <a href="$Link">
+                <a class="product-card-image" href="$Link">
                   $Image.Fit(320,300)
                 </a>
                 <% else %>
-                <a href="$Link">
-                  <img src="https://via.placeholder.com/350x300">
+                <a class="product-card-image" href="$Link">
+                  <img src="https://via.placeholder.com/700x600">
                 </a>
                 <% end_if %>
                 <div class="product-category-information">

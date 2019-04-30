@@ -1,15 +1,18 @@
 .product-carousel-container {
   position: relative;
 }
+
 .product-carousel {
   margin-bottom: 15px;
   border: 1px solid #ced5df;
 }
+
 .product-carousel-navigation {
   @include media-breakpoint-down(sm) {
     display: none;
   }
 }
+
 .product-carousel-navigation-thumbnail {
   float: left;
   margin-right: 15px;
@@ -21,6 +24,7 @@
     cursor: pointer;
   }
 }
+
 .product-carousel-arrow-left,
 .product-carousel-arrow-right {
   cursor: pointer;
@@ -46,6 +50,7 @@
     };
   }
 }
+
 .product-carousel-arrow-left {
   &:before {
     content: "\f053";
@@ -58,6 +63,7 @@
     }
   }
 }
+
 .product-carousel-arrow-right {
   &:before {
     content: "\f054";
@@ -70,6 +76,7 @@
     }
   }
 }
+
 .product-carousel-navigation-thumbnail:nth-child(3) {
   margin-right: 0;
 }

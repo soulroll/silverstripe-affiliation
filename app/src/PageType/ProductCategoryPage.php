@@ -51,7 +51,7 @@ class ProductCategoryPage extends Page
 			'Root.Main',
 			[
 				UploadField::create('Image', 'Product Image')
-					->setDescription('Image size: 640 x 480')
+					->setDescription('Image size: 700 x 600')
 					->setAllowedFileCategories('image')
 					->setAllowedExtensions(array('jpg', 'jpeg', 'png', 'gif'))
 					->setFolderName('Card Images'),
