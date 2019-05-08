@@ -34,5 +34,12 @@
     img {
       transform: scale(1.05);
     }
+    .btn-card-theme {
+      @each $theme, $color in $theme-colours {
+        body.#{$theme} & {
+          background-color: lighten($color, 5%)
+        }
+      }
+    }
   }
 }
