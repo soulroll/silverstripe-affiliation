@@ -4,3 +4,7 @@ Name: taxonomy
 SilverStripe\Taxonomy\TaxonomyTerm:
   extensions:
   - Affiliation\Affiliation\Extension\TaxonomyTermExtension
+
+SilverStripe\Taxonomy\TaxonomyType:
+  default_records:
+    - { Name: 'Size' }
