@@ -5,9 +5,9 @@
   "main": "gulpfile.js",
   "author": "David Malone - david@souldesign.net.nz",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0",
-    "autoprefixer": "^9.6.1",
-    "bootstrap": "^4.3.1",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "autoprefixer": "^9.7.4",
+    "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
     "cssnano": "~4.1.10",
     "gulp": "^4.0.2",
@@ -20,7 +20,7 @@
     "jquery-match-height": "~0.7.2",
     "magnific-popup": "^1.1.0",
     "popper.js": "^1.14.6",
-    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-flexbugs-fixes": "^4.2.0",
     "slick-carousel": "^1.8.1",
     "echo-js": "^1.7.3"
   }
